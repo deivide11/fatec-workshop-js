@@ -1,0 +1,21 @@
+// Nome: [Deivide Henrique]
+// Período: 3º semestre (Desenvolvimento de Software)
+
+// Resolução do problema:
+
+const x = 5;
+const y = 5;
+
+function somar() {
+  const r = x + y;
+  return r;
+}
+
+console.log(somar());
+
+// Explicação do problema:
+
+// A declaração const x, y = 5 estava incorreta. Declarei x e y separadamente.
+// O valor de x + 10 estava fora de uma função ou contexto, o que não fazia sentido.
+// A função somar não estava retornando o resultado, então adicionei return r.
+// Também adicionei console.log(somar()); para exibir o resultado da soma.
